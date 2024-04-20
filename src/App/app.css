@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    background-color: lightcoral;
+    background-image: url('../../images/bg-intro-desktop.png');
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: cover;
+    position: absolute;
+}
+
+.container-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 50px;
+}
